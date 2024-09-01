@@ -1,0 +1,72 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the quiz */
+.quiz-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Styling for the question */
+.question-container {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Styling for the options */
+.options-container {
+    margin-bottom: 20px;
+}
+
+.option {
+    display: block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #2980b9;
+}
+
+.option.selected {
+    background-color: #2ecc71;
+}
+
+/* Styling for the submit button */
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Styling for the result */
+#result {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #2c3e50;
+}
